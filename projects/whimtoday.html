@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yiqin Dai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logo.ico"/>
+        <link type="text/css" rel="stylesheet" href="../style/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../style/project.css"/>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="../lib/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../lib/jquery.lazy.min.js"></script>
+        <style>
+            .content h1{
+                 border-left: 0.5rem solid #88CCF0;
+                 color:#1D283B;
+            }
+            .column>p>span, .initial, .block a{
+                color:#88CCF0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="navWper">
+            <a href="../home.html"><div class="logo logo1 bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="projects" class="pointer"><a href="../home.html#projectsSection">Projects</a><div class="navBar"><div class="barColor"></div></div></li>
+                <!--<li id="playground" class="pointer"><a href="../home.html">Playground</a><div class="navBar"><div class="barColor"></div></div></li>-->
+                <li id="blog" class="pointer"><a href="https://medium.com/@phinodadai" target="_blank">Blog</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="resume" class="pointer"><a href="https://drive.google.com/open?id=1LrO7qdJ-vwFfWidq-fwUGWm0zhDTO39-" target="_blank">Resume</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="about" class="pointer"><a href="../about.html">About</a><div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+        <div class="subnav">
+            <a href="../home.html"><div class="logo bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="project_description" class="pointer">Project Description<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="challenge" class="pointer">Challenge<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="solution" class="pointer">Solution<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="outcome" class="pointer">Design Outcome<div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+
+        <div class="project" style="background-color: #9DC8DF;">
+            <div class="projectText">
+                <p class="role">BRANDING | UX & UI | ILLUSTRATION</p>
+                <h1>WHIMToday</h1>
+                <p>An information hub where users can view time, weather, news feed, events and more from their wall-mounted hardware.</p>
+            </div>
+            <div class="bg" style="background-image:url('../img/today.png')"></div>
+        </div>
+
+        <div class="content">
+            <div class="section project_description_section">
+                <h1>Project Description</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <p><span class="initial">T</span>o engage users with WHIM canvas, WHIM wants to build WHIMToday, another mini app so that user doesn’t need to use other channels such as Apple notification center or Android Google Now to have their daily essential information.</p>
+                        <p>WHIM Today is an information hub where users can view time, weather, news feed, events  and more from their mini app.</p>
+                    </div>
+                    <div class="columnright column">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section challenge_section">
+                <h1>Challenge</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <h3>1. Experience Transfer</h3>
+                        <p><span class="initial">T</span>he canvas is a 1980 x 1080 area, but it carries information including: weather, reminder, todo, clock, news headlines, traffic, inspirational quotes, stock, notes and photo albums. We want to make sure that the information display is rich, but tidy and  easy to read at the same time. How can we fit all the information into this limited space without messing up the UI?</p>
+                    </div>
+                    <div class="columnright column">
+                        <img src="../img/whimtoday/1.svg" style="width:30vw;float:right;margin-top: -10rem;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section solution_section">
+                <h1>Solution</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <h3>Card Design: A Metaphor</h3>
+                        <p><span class="initial">C</span>ard is a perfect vessel to carry a small piece of information. The flexible nature of cards indicates that they are movable, dropable, stackable and removable. Users can simply drag and drop the card “onto” the canvas or drag and drop it out of the canvas to remove it</p>
+                        <p>The stackable nature of cards adds one more dimension in the z axis to the information carrier.</p>
+                    </div>
+                    <div class="columnright column">
+                        <img src="../img/whimtoday/2.svg" style="width:50vw; position:absolute;right:0;margin-top: -28rem;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section outcome_section" style="min-height: 36rem;">
+                <h1>Design Outcome</h1>
+                <div class="block">
+                    <div style="width: 60%">
+                        <p><span class="initial">I</span>n the final design, each information is carried in a card. Background can be seen through the frost glass effect of the card, and user can customize the background.</p>
+                        <p>We used “block” here to refer to the cards in the mini app. User is able to add a block to the canvas, remove a block from the canvas, or stop WHIMToday from showing on the canvas.</p>
+                        <p>If the user taps “add block”, a toast menu listing blocks that are not showing on the canvas at the moment will pop up. The user can drag and drop the block’s icon into the canvas to show the content of this block.</p>
+                        <p>If the user taps “remove block”, a toast menu containing an empty slot will pop up. The user can drag and drop the block from canvas to the slot to remove it from the canvas.</p>
+                    </div>
+                </div>
+                <img src="../img/whimtoday/2.png" style="width:80vw;">
+            </div>
+        <hr>
+
+        <div id="more">
+            <a href="whimyoutube.html">
+                <div class="prev pointer">
+                    <p class="pointer"><i class="fas fa-chevron-left"></i> Previous Project</p>
+                    <h3 class="pointer">WHIM - YouTube</h3>
+                </div>
+            </a>
+            <a href="aerohive.html">
+                <div class="next pointer">
+                    <p class="pointer">Next Project <i class="fas fa-chevron-right"></i></p>
+                    <h3 class="pointer">Aerohive</h3>
+                </div>
+            </a>
+        </div>
+        </div>
+    <script src="../js/project.js"></script>
+    </body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yiqin Dai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logo.ico"/>
+        <link type="text/css" rel="stylesheet" href="../style/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../style/project.css"/>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="../lib/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../lib/jquery.lazy.min.js"></script>
+        <link rel="stylesheet" href="../lib/lightbox.css">
+        <script src="../lib/lightbox.js"></script>
+        <style>
+            .content h1{
+                 border-left: 0.5rem solid #6F96EA;
+                 color:#20273D;
+            }
+            .column>p>span, .initial, .block a, .block h3{
+                color:#6F96EA;
+            }
+            .gallery{
+                display:flex;
+                display: -webkit-flex;
+                justify-content:space-between;
+                -webkit-justify-content:space-between;
+                align-items: center;
+                -webkit-align-items:center;
+            }
+            .gallery a{
+                width:25vw;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="navWper">
+            <a href="../home.html"><div class="logo logo1 bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="projects" class="pointer"><a href="../home.html#projectsSection">Projects</a><div class="navBar"><div class="barColor"></div></div></li>
+                <!--<li id="playground" class="pointer"><a href="../home.html">Playground</a><div class="navBar"><div class="barColor"></div></div></li>-->
+                <li id="blog" class="pointer"><a href="https://medium.com/@phinodadai" target="_blank">Blog</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="resume" class="pointer"><a href="https://drive.google.com/open?id=1LrO7qdJ-vwFfWidq-fwUGWm0zhDTO39-" target="_blank">Resume</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="about" class="pointer"><a href="../about.html">About</a><div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+        <div class="subnav">
+            <a href="../home.html"><div class="logo bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="project_description" class="pointer">Project Description<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="design_requirements" class="pointer">Project Research<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="challenge" class="pointer">Challenge<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="solution" class="pointer">Design Process<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="result" class="pointer">Result<div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+
+        <div class="project" style="background-color: #20273D; padding:0;">
+            <div class="projectText" style="margin:4rem 2rem 4rem 8rem">
+                <p class="role">BRANDING | UX & UI | ILLUSTRATION</p>
+                <h1>Space Traveler :<br>A Design Challenge</h1>
+                <p>The concept interface design for lonely space travelers.</p>
+            </div>
+            <div class="bg" style="position:absolute; background-image:url('../img/space/hero.svg'); background-position: right top;"></div>
+        </div>
+
+        <div class="content">
+            <div class="section project_description_section">
+                <h1>Project Description</h1>
+                <div class="block">
+                        <p style="width:60%"><span class="initial">I</span>magine you are a space traveler that needs an interface in your spaceship dashboard that calculates your ship’s renewable energy, nearest charging station, as well as alternative resource data from other planets. Design a widget that will allow you, the pilot, to view and interact with critical data based on your ship’s status, as well as send key instructions that could ultimately save your life in an intergalactic voyage. </p>
+                </div>
+            </div>
+
+            <div class="section design_requirements_section">
+                <h1>Project Research</h1>
+                <div class="block">
+                    <div style="width: 60%">
+                    <h3>What do most spaceship dashboard look like and most importantly, why?</h3>
+                    <p>After a broad research about dashboards in both real world and sci-fi world, I found few places they have in common:</p>
+                    <p>
+                    1. Every dashboard can be split into two areas: <span>output area</span> where data is visualized and displayed and <span>input area</span> where actual actions happen.</p>
+                    <p>
+                    2. All the input widgets are based on physical buttons, knobs and levers.
+                    </p>
+                    <p>
+                    3. The functions of the physical buttons are highly decoupled: one button does only one thing. There's no such button that can open a cabin door and close the other one at the same time.
+                    </p>
+                    <p>There are good reasons that the dashboards are designed in such way. The split of input/output area reduces error rate by preventing misoperation, as user needs to go to output area intentionally if certain action is needed. The physical buttons and knobs also prevent misoperation by providing physical affordance and haptic feedback. The decoupling makes sure that only one result is led by each action, which reduces the error rate and control the damage that can possibly cause by misoperation as well.</p>
+                </div>
+                </div>
+                <div class="block gallery">
+                    <a class="example-image-link" data-lightbox="image" href="../img/space/img1.png" data-title="The cockpit of space shuttle Discovery">
+                        <figure>
+                            <img src="../img/space/img1_th.png" style="width:100%;">
+                            <figcaption style="text-align: center;">The cockpit of space shuttle Discovery</figcaption>
+                        </figure>
+                    </a>
+                    <a class="example-image-link" data-lightbox="image" href="../img/space/img2.png" data-title="The cockpit of Enterprise">
+                        <figure>
+                            <img src="../img/space/img2_th.png" style="width:100%;">
+                            <figcaption style="text-align: center;">The cockpit of Enterprise in Star Trek</figcaption>
+                        </figure>
+                    </a>
+                    <a class="example-image-link" data-lightbox="image" href="../img/space/img3.png" data-title="The flight deck of Rockwell space shuttle">
+                        <figure>
+                            <img src="../img/space/img3_th.png" style="width:100%;">
+                            <figcaption style="text-align: center;">The flight deck of Rockwell space shuttle</figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+            <div class="section challenge_section">
+                <h1>Challenge</h1>
+                <div class="block">
+                    <div>
+                        <h3>How do we keep this low error rate in a 100% digital interface?</h3>
+                        <p>1. Project physical dashboard to the digital interface by providing affordance</p>
+                        <p>2. Limit user's option in each screen</p>
+                        <p>3. Spliting input (operate) dashboard from output (display) dashboard</p>
+                        <p>4. Requiring comfirmation for critical actions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section challenge_section">
+                <h1>Design Process</h1>
+                <div class="block">
+                    <div style="width:60%">
+                         <h3>1. Challenge: You know nothing, John Snow...</h3>
+
+                         <p>One of the biggest problem I ran into before prototyping is that having a long list of favorite sci-fi movies (The Martian, Star Trek Series, Guardians of the Galaxy, Gravity, Interstellar, Blade Runner, Alien... you name it) in my head, when it comes to details of a dashboard, I found myself 100% ignorant about space traveling. What data should we track? What are the potential problems a space traveler will face? I had no idea about such questions. So the first step in my design is searching for references.</p>
+                         <p>To learn more details about space traveling, I watched some playthroughs of <i>Kerbal</i>, a space treveling game. I also watched some playthroughs of <i>Freelancer</i> and <i>Elite Dangerous</i>, video games of similar themes. I read the <i>Star Trek U.S.S. Enterprise Owners' Workshop Manual</i> to learn about the structure of a spaceship. For a more intuitive understanding of a physical dashboard, I took time to study the dashboard of my car.</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <figure>
+                        <img src="../img/space/refs.png" style="width:100%;">
+                        <figcaption style="text-align: center;">References</figcaption>
+                    </figure>
+                </div>
+
+                <div class="block" style="align-items: flex-start; -webkit-align-items: flex-start;">
+                    <div class="columnleft column" style="width:50%">
+                        <h3>2. User Study</h3>
+                        <p>A typical user of the dashboard is a lonely space traveler who relies heavily on the widgets to acquire information about the spaceship and the surrounding and take actions when necessary. I took David 8, the android in Prometheus as my object in persona as he seems to be a good fit.</p>
+                        <p>David 8 is traveling alone in most of the time - whether when the rest of the crew was in hypersleep or when he was the only survivor after the death of Dr. Shaw. He is traveling across the universe to seek a proper habitat for his "perfect organism", and during the trip he interacts with the dashboard a lot.</p>
+                    </div>
+                    <div class="columnright column" style="width: 100%">
+                        <figure style="padding-top: 4rem; padding-left: 2rem;">
+                            <img src="../img/space/persona.png" style="width:100%; border-radius: 12px;">
+                            <figcaption style="text-align: center;">Persona: David 8</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="block" style="align-items: flex-start; -webkit-align-items: flex-start;">
+                    <div class="columnleft column" style="width:50%">
+                        <p>In David's dangerous travel, the use case includes regular checking in on data about the spaceship and his surroundings, regular fixes of minor mechanical problems of the spaceship, operating the spaceship and handling the critical crisis that can potentialy happen - like an invading alien.</p>
+                    </div>
+                    <div class="columnright column" style="width: 100%; padding-left: 2rem;">
+                        <figure>
+                            <div id="usecase" class="center bg" style="width:40rem; height:40rem;border-radius: 12px; background-image: url('../img/space/usecase1.png'); background-position: top;"></div>
+                            <figcaption style="text-align: center;">Use Case</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="block">
+                    <div style="width:60%">
+                        <h3>3. Paper Sketch</h3>
+                        <p>To start with, I sketched 3 screens combining the main features:</p>
+                            <p><i>output_ship</i> illustrates how information about the spaceship is visualized in the interface;</p>
+                            <p><i>output_univers</i> illustrates how information about the surrounding univers is visualized in the interface;</p>
+                            <p><i>panic_mode</i> demonstrates a series of actions to follow when the user triggers the "panice mode".</p>
+                    </div>
+                </div>
+                <div class="block" style="display:initial;">
+                    <figure>
+                        <img src="../img/space/wireframe1.png" style="width:100%; padding:0 20%;">
+                        <figcaption style="text-align: center;">output_ship</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../img/space/wireframe2.png" style="width:100%; padding:0 20%; margin-top: 4rem;">
+                        <figcaption style="text-align: center;">output_universe</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="../img/space/wireframe3.png" style="width:100%; padding:0 20%; margin-top: 4rem;">
+                        <figcaption style="text-align: center;">panic_mode</figcaption>
+                    </figure>
+                </div>
+
+                <div class="block">
+                    <div style="width:60%">
+                        <h3>4. High Fidelity Prototype</h3>
+                        <p>I mapped the color theme, font and pixel-perfect icons to the wireframe as the final step.</p>
+                        <p>A series of symbols on the top-right corner are permanent visual elements that indicate a various of indexes of the spaceship's current status. The symbols visualize current status of the indexes so that the user can have a rough idea about the current status with a quick glance at the symbols. For example, the blue area in the liquid fuel symbol will decrease as the liquid fuel is consumed. If anything is wrong with a specific index, the symbol will turn red and blink with a pop up alarm until the problem is fixed.</p>
+                        <p>The panic button is another permanent element in the dashboard, considering that critical condition can happen anytime in space traveling. If the user taps the "Panic Mode" button, a comfirmation process will be activated, requiring users to tap the button another 2 times to comfirm so that the system does not enter panic mode by misoperation.</p>
+                        <p>The diffuse shadow embosses the buttons, providing visual affordance for a "tappable" area.</p>
+                    </div>
+                </div>
+                <div class="block" style="align-items: flex-start; -webkit-align-items: flex-start;">
+                    <div style="width: 50%">
+                        <p>In this screen, the actual spaceship is projected to the digital dashboard, and the problematic part is highlighted with a blinking red squre. This projection helps the user locate the problem quickly before the actual repairing work. A wrench icon is a visual affordance for the message "something needs to be fixed here" as the wrench icon is a universal symbol for "fixing".</p>
+                        <p>For the speed indicator I was inpired by a car dashboard. I used the unit MGLT (megalight) here, which is originally derived from Star Wars.</p>
+                        <p>The following charts visualize the status of liquid fuel, electric power, ablator and the shield. Four bar charts indicate the working status of the 4 thrusters of the ship.</p>
+                        <p>Bearing the principle of "spliting input from output section", I did not include too many CTA buttons here. The use can do limited actions in the output section, whereas most of the actions atre taken in the "pilot" section.</p>
+                    </div>
+                    <div style="width:100%; padding-left: 2rem;">
+                        <figure>
+                            <img src="../img/space/hifi1.png" style="width: 100%;">
+                            <figcaption style="text-align: center;">output_ship</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="block" style="align-items: flex-start; -webkit-align-items: flex-start;">
+                    <div style="width:100%;">
+                        <figure>
+                            <img src="../img/space/hifi2.png" style="width: 100%;">
+                            <figcaption style="text-align: center;">output_ship</figcaption>
+                        </figure>
+                    </div>
+                    <div style="width: 50%; padding-left: 2rem;">
+                        <p>In this screen, a celestial coordinate indicate the location of the nearest planet and charging stations within the radar. It also indicates the current direction and location of the spaceship, so that the user has a big picture of the navigation.</p>
+                        <p>In the table below the coordinate, the nearest planets are listed with their names, habitable level, distance from current location, followed with a "navigate" button. Once the user taps the button, the spaceship will automatically cruise to the corresponding planet.</p>
+                        <p>On the right, detailed information about a planet is demonstrated. An arrow indicates the planet the current information belongs to. More information about the planet such as the profile picture, the name, mass, diameter, escape velocity, rotational period and history of temperature changing is revealed. The constitution of the atmosphere and the surface is visualized in two charts.</p>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="columnright column">
+                        <h3>5. Interaction that prevents misoperation: what does iOS do?</h3>
+                        <p>To design a foolproof interface, misoperations should be taken into consideration. To answer the question about "how do we keep a low error rate in a 100% digital interface", I studied the iOS system.</p>
+                        <p>The iOS needs to make sure that some important actions are not triggered by mistakes. Such actions include: unlocking the phone and installing an application. A long swipe from left to right ensures that the user does not unlock the phone and proceed with more actions (such as pocket dailing) by mistake. When installing a new app, the user needs to press the button on the right side twice to comfirm the installation.</p>
+                        <p>In our space traveling case, the most critical action is triggering "Panic Mode". Although I provide way for the user to go back to regular mode in the "Panic Mode" screen, the "Panic Mode" is followed by a series of critical actions such as ejecting the escape pod. In order to make sure that this mode is not triggered by mistake, I adopted iOS's double click comfirmation by requiring users to click 3 times on the button to enter the "Panic Mode".</p>
+                    </div>
+                    <figure class="columnleft column">
+                        <img src="../img/space/interact1.gif" style="width: 100%;">
+                        <figcaption style="text-align: center;">output_ship</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+
+        <div id="more">
+            <a href="assemblyai.html">
+                <div class="prev pointer">
+                    <p class="pointer"><i class="fas fa-chevron-left"></i> Previous Project</p>
+                    <h3 class="pointer">AssemblyAI</h3>
+                </div>
+            </a>
+            <a href="muji.html">
+                <div class="next pointer">
+                    <p class="pointer">Next Project <i class="fas fa-chevron-right"></i></p>
+                    <h3 class="pointer">MUJI Redesign Concept</h3>
+                </div>
+            </a>
+        </div>
+    <script src="../js/project.js"></script>
+    <script>
+        $("#usecase").mouseenter(function() {
+            $(this).css('background-image', 'url("../img/space/usecase2.png")')
+        });
+        $("#usecase").mouseleave(function() {
+            $(this).css('background-image', 'url("../img/space/usecase1.png")')
+        });
+    </script>
+    </body>
+</html>

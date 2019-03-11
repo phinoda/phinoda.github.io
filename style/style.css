@@ -1,0 +1,290 @@
+/********** general **********/
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	cursor:url(https://upload.wikimedia.org/wikipedia/commons/2/20/Greenish_s.png),auto;
+}
+
+@font-face {
+	font-family: "Hurme_bold";
+	src: url("../font/HurmeGeometricSans1-Bold.eot?") format("embedded-opentype"),
+		 url("../font/HurmeGeometricSans1-Bold.woff2") format("woff2"),
+		 url("../font/HurmeGeometricSans1-Bold.woff") format("woff"),
+		 url("../font/HurmeGeometricSans1-Bold.ttf") format("truetype"),
+		 url("../font/HurmeGeometricSans1-Bold.svg#HurmeGeometricSans1-Bold") format("svg");
+}
+
+@font-face {
+	font-family: "Hurme_semi";
+	src: url("../font/HurmeGeometricSans1-SemiBold.eot?") format("embedded-opentype"),
+		 url("../font/HurmeGeometricSans1-SemiBold.woff2") format("woff2"),
+		 url("../font/HurmeGeometricSans1-SemiBold.woff") format("woff"),
+		 url("../font/HurmeGeometricSans1-SemiBold.ttf") format("truetype"),
+		 url("../font/HurmeGeometricSans1-SemiBold.svg#HurmeGeometricSans1-SemiBold") format("svg");
+}
+
+@font-face {
+	font-family: "Hurme_thin";
+	src: url("../font/HurmeGeometricSans1-Thin.eot?") format("embedded-opentype"),
+		 url("../font/HurmeGeometricSans1-Thin.woff2") format("woff2"),
+		 url("../font/HurmeGeometricSans1-Thin.woff") format("woff"),
+		 url("../font/HurmeGeometricSans1-Thin.ttf") format("truetype"),
+		 url("../font/HurmeGeometricSans1-Thin.svg#HurmeGeometricSans1-Thin") format("svg");
+}
+
+@font-face {
+	font-family: "Hurme_light";
+	src: url("../font/HurmeGeometricSans1-Light.eot?") format("embedded-opentype"),
+		 url("../font/HurmeGeometricSans1-Light.woff2") format("woff2"),
+		 url("../font/HurmeGeometricSans1-Light.woff") format("woff"),
+		 url("../font/HurmeGeometricSans1-Light.ttf") format("truetype"),
+		 url("../font/HurmeGeometricSans1-Light.svg#HurmeGeometricSans1-Light") format("svg");
+}
+
+body{
+    margin:0;
+    padding:0;
+    color:#f3f3f3;
+    font-family: "Hurme_light", sans-serif;
+    letter-spacing: 1.5px;
+}
+
+a{
+	text-decoration: none;
+	display:inline;
+	color:#5b5160;
+}
+
+li{
+	list-style-type: none;
+}
+
+h1{
+	font-family: "Hurme_bold", sans-serif;
+	letter-spacing: 3px;
+}
+
+h3{
+	font-family: "Hurme_semi", sans-serif;
+	letter-spacing: 1px;
+}
+
+.pointer{
+	cursor: pointer !important;
+}
+
+.bg{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+}
+
+.greentea{
+	color:#A7A877;
+}
+
+/********** hero **********/
+
+#hero{
+	background-color: #3C3340;
+	width:100%;
+	min-height:100vh;
+	margin:0;
+}
+
+#navWper, .subnav{
+	margin:0;
+	padding:3rem 10%;
+	height:4rem;
+	text-align:center;
+	display:flex;
+	display: -webkit-flex;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+	align-items: center;
+	-webkit-align-items:center;
+}
+
+.logo{
+	width:4rem;
+	height:4rem;
+	display: inline-block;
+}
+
+.logo1{
+	background-image: url("../img/logo_light.svg");
+}
+
+.logo2{
+	background-image: url("../img/logo_dark.svg");
+}
+
+.nav{
+	font-family: "Hurme_light",sans-serif;
+	font-size:0.8em;
+    list-style-type: none;
+	letter-spacing:2px;
+	padding:0;
+	color:#a7a5a8;
+	display:flex;
+	display: -webkit-flex;
+	justify-content:flex-end;
+	-webkit-justify-content:flex-end;
+	flex-wrap: wrap;
+	-webkit-flex-wrap:wrap;
+}
+
+.nav>li{
+	display:inline-block;
+	text-align:center;
+	padding:0.5rem 2rem;
+	-o-transition: color 1s;
+	-moz-transition: color 1s;
+	-webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+.nav>li:hover{
+	color:#f3f3f3;
+}
+
+.nav>li>a{
+	-o-transition: color 1s;
+	-moz-transition: color 1s;
+	-webkit-transition: color 1s;
+    transition: color 1s;
+    color:#a7a5a8;
+}
+
+.nav>li:hover a{
+	color:#f3f3f3;
+}
+
+.active{
+	color:#5b5160 !important;
+}
+
+.navBar{
+	background-color:transparent;
+	width:3em;
+	height:4px;
+	margin:auto;
+	overflow: hidden;
+}
+.barColor{
+	background-color:#a0a56d;
+	width:3em;
+	height:4px;
+	margin:0 auto;
+	position: relative;
+	left:-3em;
+	transition: left 1s;
+	-moz-transition: left 1s;
+	-o-transition: left 1s;
+	-webkit-transition:left 1s;
+}
+
+.nav>li:hover > .navBar > .barColor{
+	left:0;
+}
+
+#titleWper{
+	text-align: center;
+	margin:auto;
+	padding:6% 0;
+}
+
+#titleWper > h1{
+	font-family: "Hurme_semi",sans-serif;
+	font-size:2.5em;
+	letter-spacing:1px;
+}
+
+#titleWper > p{
+	margin-top: 1rem;
+	font-family: "Hurme_Thin",sans-serif;
+}
+
+#avatar{
+	margin:0 auto;
+	margin-bottom: 4rem;
+	width:6rem;
+	height:6rem;
+	border-radius: 50%;
+	background-image: url("../img/sketch.png");
+}
+
+#contactIcon{
+	width:50%;
+	text-align:center;
+	margin:auto;
+	color:rgba(243,243,243,.5);
+	font-size: 1.5rem;
+}
+
+.icon{
+	display:inline-block;
+	margin:1rem;
+	padding:0;
+	color:rgba(243,243,243,.5);
+	transition:color 0.5s;
+	-moz-transition:color 0.5s;
+	-o-transition:color 0.5s;
+	-webkit-transition:color 0.5s;
+}
+
+.icon:hover{
+	color:rgba(243,243,243,1);
+}
+
+/********** projects **********/
+#projectsSection{
+	padding-top: 5%;
+}
+
+#projectsSection >a{
+	color:#fff;
+}
+
+.project{
+	width:80%;
+	height:30rem;
+	margin:0 auto;
+	margin-bottom:5%;
+	padding:4rem 2rem 4rem 8rem;
+	display: flex;
+	display: -webkit-flex;
+	justify-content:space-between;
+	-webkit-justify-content:space-between;
+	align-items: flex-start;
+	-webkit-align-items:flex-start;
+}
+
+.project>.bg{
+	width:100%;
+	height:24rem;
+}
+
+.projectText{
+	margin-right: 4rem;
+}
+
+.projectText>p{
+	font-size: 1rem;
+	line-height: 150%;
+}
+
+.role{
+	font-size: 0.8rem !important;
+	letter-spacing: 3px;
+	margin-bottom: 4rem;
+}
+
+
+
+/*media query*/
+/*pad*/
+@media only screen and (max-width: 1000px) {
+}

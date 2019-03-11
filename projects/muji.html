@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yiqin Dai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logo.ico"/>
+        <link type="text/css" rel="stylesheet" href="../style/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../style/project.css"/>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="../lib/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../lib/jquery.lazy.min.js"></script>
+        <style>
+            .content h1{
+                 border-left: 0.5rem solid #7F0019;
+                 color:#262222;
+            }
+            .column>p>span, .initial, .block a{
+                color:#7F0019;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="navWper">
+            <a href="../home.html"><div class="logo logo1 bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="projects" class="pointer"><a href="../home.html#projectsSection">Projects</a><div class="navBar"><div class="barColor"></div></div></li>
+                <!--<li id="playground" class="pointer"><a href="../home.html">Playground</a><div class="navBar"><div class="barColor"></div></div></li>-->
+                <li id="blog" class="pointer"><a href="https://medium.com/@phinodadai" target="_blank">Blog</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="resume" class="pointer"><a href="https://drive.google.com/open?id=1LrO7qdJ-vwFfWidq-fwUGWm0zhDTO39-" target="_blank">Resume</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="about" class="pointer"><a href="../about.html">About</a><div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+        <div class="subnav">
+            <a href="../home.html"><div class="logo bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="project_description" class="pointer">Project Description<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="assumption" class="pointer">Assumption<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="design_requirements" class="pointer">Design Requirements<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="design_process" class="pointer">Design Process<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="outcome" class="pointer">Design Outcome<div class="navBar"><div class="barColor"></div></div></li>
+                <!--<li id="heuristic_evaluation" class="pointer">Heuristic Evaluation<div class="navBar"><div class="barColor"></div></div></li>-->
+            </ul>
+        </div>
+
+        <div class="project" style="background-color: #BDA17A;">
+            <div class="projectText">
+                <p class="role">CONCEPT | REDESIGN</p>
+                <h1>MUJI</h1>
+                <p>Responsive website redesign concept for MUJI, a popular Japanese retail company that produce fine quality products of minimalist design.</p>
+            </div>
+            <div class="bg" style="background-image:url('../img/muji.svg')"></div>
+        </div>
+
+        <div class="content">
+            <div class="section project_description_section">
+                <h1>Project Description</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <p><span class="initial">I</span>'m a big fan of MUJI product because of its minimalist design and modern look.</p>
+                        <p>Studying MUJI’s history, one will find design rooted in MUJI’s blood. MUJI was founded by a bunch of famous Japanese designers including Ikko Tanaka, Takashi Sugimoto and Kazuko Koike.</p>
+                        <p>After Tanaka, Kenya Hara took over the role of MUJI’s art director. Collaborating with Naoto Fukasawa, an award-winning industrial designer and Kengo Kuma, a famous architect, MUJI has established its incontrovertible role in the area of graphic design, indestrial design and interior design.</p>
+                    </div>
+                    <div class="columnright column">
+                        <figure style="width:30vw;float:right;">
+                            <img src="../img/muji/1.jpg" style="width:100%">
+                            <figcaption style="text-align: center;">MUJI USB Fan</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="center">
+                        <figure style="width:100vw;position:absolute;left:0;">
+                            <img src="../img/muji/2.png" style="width:100%;">
+                            <figcaption style="text-align: center;">MUJI's product design, graphic design and interior design is elegant and exquisite.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="block" style="margin-top: 20rem;">
+                    <div class="columnleft column">
+                        <p><span class="initial">B</span>eing fond of MUJI’s design, I was astonished that MUJI’s online experience is far less delightful than its off-line experience:</p>
+                        <p>The absense of information hierarchy makes the site hard to read; The abuse of carousels adds cognitive loads; Low resolution images make the site looks fake; Redundant extreneous information is seen everywhere; “fake responsiveness design” messes up layouts on mobile screen, and the site is slow.</p>
+                        <p>This is when I decided to work on this website redesign concept.</p>
+                    </div>
+                    <div class="columnright column">
+                        <figure>
+                            <img src="../img/muji/3.png" style="width:50vw;margin-top:-4rem;margin-right: -4rem;">
+                            <figcaption style="text-align: center;">MUJI's online experience is nothing like its offline experience</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section assumption_section">
+                <h1>Assumption</h1>
+                <div class="block">
+                    <div class="center" style="width: 100%;">
+                        <img src="../img/muji/4.png" style="width:100%">
+                        <p style="margin-top: 2rem !important;"><span class="initial">E</span>mily and her roommate went shopping on a weekend, and they entered the MUJI store on 5th Avenue. Emily always wanted to get a bean bag for her room, so she asked a staff if they have a bean bag in pink in store. The staff replied that they had the bean bag, but the pink case was out of stock. He suggest Emily to purchase the pink case on muji’s online store. So Emily logged into to MUJI’s online store on her smart phone.</p>
+                        <p>In this scenario, Emily probably:</p>
+                        <ul>
+                            <li>- is loading the site using her cellular data</li>
+                            <li>- is carrying some shopping bags so she had to use her phone single-handed</li>
+                            <li>- has limited time because her roommate is waiting for her</li>
+                        </ul>
+                        <p>In this use case, the design should:</p>
+                        <ul>
+                            <li>- place important tappable elements within the "Thumb Zone"</li>
+                            <li>- Reduce image size and do not use videos</li>
+                            <li>- Animation and images should be limited and lazyloaded</li>
+                            <li>- Limit options and information, avoid redirecting, and make sure the tappable area is big enough to eliminate fat finger mistakes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section design_requirements_section">
+                <h1>Design Requirements</h1>
+                <div>
+                    <div style="height:6rem; margin-top: 2rem;">
+                        <div class="imgleft bg" style="background-image: url('../img/muji/5.png')">
+                        </div>
+                        <p>Create reasonable information hierarchy</p>
+                    </div>
+                    <div style="height:6rem; margin-top: 2rem;">
+                        <div class="imgleft bg" style="background-image: url('../img/muji/6.png')">
+                        </div>
+                        <p>Remove extraneous content</p>
+                    </div>
+                    <div style="height:6rem; margin-top: 2rem;">
+                        <div class="imgleft bg" style="background-image: url('../img/muji/7.png')">
+                        </div>
+                        <p>Redesign visual elements to match MUJI’s brand identity</p>
+                    </div>
+                    <div style="height:6rem; margin-top: 2rem;">
+                        <div class="imgleft bg" style="background-image: url('../img/muji/8.png')">
+                        </div>
+                        <p>Enhance userbility by eliminating fat finger mistakes on mobile screen</p>
+                    </div>
+                    <div style="height:6rem; margin-top: 2rem;">
+                        <div class="imgleft bg" style="background-image: url('../img/muji/9.png')">
+                        </div>
+                        <p>Create real fully-responsive mobile experience</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section design_process_section">
+                <h1>Design Process</h1>
+                <div class="block">
+                    <div class="center" style="width: 100%;">
+                        <figure>
+                            <img src="../img/muji/10.png" style="width:100%;">
+                            <figcaption style="text-align: center;">Site Map</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="block" style="margin-top: 4rem;">
+                    <div class="columnleft column">
+                        <p><span class="initial">I</span> developed a monotone color palette of MUJI red. The grayscale is toned with a subtle red hint, to make the tone feels warm.</p>
+                        <figure>
+                            <img src="../img/muji/11.png" style="width:100%;">
+                            <figcaption style="text-align: center;">Design Guide</figcaption>
+                        </figure>
+                    </div>
+                    <div class="columnright column">
+                        <img src="../img/muji/12.png" style="width:100%">
+                    </div>
+                </div>
+                <div class="block" style="margin-top: 4rem;">
+                    <div class="columnleft column">
+                        <figure>
+                            <img src="../img/muji/13.png" style="width:100%;">
+                            <figcaption style="text-align: center;">The Paper Analogy</figcaption>
+                        </figure>
+                    </div>
+                    <div class="columnright column">
+                        <p style="color:#7F0019;"><img src="../img/muji/14.svg" style="position:absolute; margin-top: -1rem; margin-left: -2rem;"><i>In the digital world, the analogy of paper is white space.</i></p>
+                        <br>
+                        <p><span class="initial">I</span> tried to extend this concept by using paper texture in the design to imitate muji’s package. But I quickly found that after adding the texture, the design looks muddy - nothing like MUJI’s clean product design. Then I realized that in the digital world, the analogy of paper is white space. So in this design I paid great attention to the white space and learned how it creates tranquility and rhythm in design.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section outcome_section" style="min-height: 36rem;">
+                <h1>Design Outcome</h1>
+                <div class="block">
+                    <div class="center">
+                        <figure>
+                            <img src="../img/muji/15.png" style="width:60vw;">
+                            <figcaption>Desktop</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../img/muji/16.png" style="width:60vw; margin-top: 4rem;">
+                            <figcaption>Mobile</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        <hr>
+
+        <div id="more">
+            <a href="aerohive.html">
+                <div class="prev pointer">
+                    <p class="pointer"><i class="fas fa-chevron-left"></i> Previous Project</p>
+                    <h3 class="pointer">Aerohive</h3>
+                </div>
+            </a>
+            <a href="assemblyai.html">
+                <div class="next pointer">
+                    <p class="pointer">Next Project <i class="fas fa-chevron-right"></i></p>
+                    <h3 class="pointer">AssemblyAI</h3>
+                </div>
+            </a>
+        </div>
+        </div>
+    <script src="../js/project.js"></script>
+    </body>
+</html>

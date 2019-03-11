@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yiqin Dai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/logo.ico"/>
+        <link type="text/css" rel="stylesheet" href="style/style.css"/>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script src="lib/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="lib/jquery.lazy.min.js"></script>
+        <style>
+            html{
+                overflow: hidden;
+                width:100vw;
+            }
+            .nav>li:hover a, p{
+                color:#5b5160;
+            }
+            #blob{
+                width:40rem;
+                height: 40rem;
+                background-image: url("img/blob.svg");
+                position: absolute;
+                bottom:0;
+                right:0;
+                z-index: -10;
+                background-position: bottom;
+            }
+            main{
+                padding:2rem 25%;
+            }
+            p span, a{
+                color:#A7A877 !important;
+            }
+            .initial{
+                font-size: 3rem;
+                font-family: "Hurme_semi", serif;
+                line-height: 1rem;
+            }
+            #avatar{
+                margin-bottom: 2rem;
+            }
+            span a{
+                margin:0 !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="blob" class="bg"></div>
+        <div id="navWper">
+            <a href="home.html"><div class="logo logo2 bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="projects" class="pointer"><a href="home.html">Projects</a><div class="navBar"><div class="barColor"></div></div></li>
+                <!--<li id="playground" class="pointer">Playground<div class="navBar"><div class="barColor"></div></div></li>-->
+                <li id="blog" class="pointer"><a href="https://medium.com/@phinodadai" target="_blank">Blog</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="resume" class="pointer"><a href="https://drive.google.com/open?id=1LrO7qdJ-vwFfWidq-fwUGWm0zhDTO39-" target="_blank">Resume</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="about" class="pointer"><a href="../about.html" class="active">About</a><div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+        <main>
+            <div id="avatar" class="bg"></div>
+            <p><span class="initial">Hi,</span> I'm Yiqin Dai, a freelance product designer based in upstate New York. I love solving complicated problems with simple design solutions and crafting beautiful interfaces.</p>
+            <p>I am a fun individual to work with and a passionate team player who mingles into the team quickly. I am also an enthusiastic reader, night owl, dog mom <i class="em em-dog2"></i> , ipod classic collector, passionate cooker, and a lifelong learner. <i class="em em-nerd_face"></i></p>
+            <p>I am a big believer in <span>changing the world by the power of education</span> - MOOC in particular. I believe that the society would be a better place if people - despite their races, economic conditions or genders - have more access to free educational resources of high quality. So if you are working on any project related in MOOC or free education in general, please feel free to reach out. I am happy to contribute my part of effort as a volunteer. <i class="em em-beer"></i></p>
+            <p><span class="pointer"><a href="mailto:phinodadai@gmail.com" target="_top" class="email icon pointer">phinodadai@gmail.com</a></span></p>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yiqin Dai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logo.ico"/>
+        <link type="text/css" rel="stylesheet" href="../style/style.css"/>
+        <link type="text/css" rel="stylesheet" href="../style/project.css"/>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+        <script src="../lib/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../lib/jquery.lazy.min.js"></script>
+        <style>
+            .content h1{
+                 border-left: 0.5rem solid #EC5F51;
+                 color:#272C33;
+            }
+            .column>p>span, .initial, .block a{
+                color:#EC5F51;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="navWper">
+            <a href="../home.html"><div class="logo logo1 bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="projects" class="pointer"><a href="../home.html#projectsSection">Projects</a><div class="navBar"><div class="barColor"></div></div></li>
+                <!--<li id="playground" class="pointer"><a href="../home.html">Playground</a><div class="navBar"><div class="barColor"></div></div></li>-->
+                <li id="blog" class="pointer"><a href="https://medium.com/@phinodadai" target="_blank">Blog</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="resume" class="pointer"><a href="https://drive.google.com/open?id=1LrO7qdJ-vwFfWidq-fwUGWm0zhDTO39-" target="_blank">Resume</a><div class="navBar"><div class="barColor"></div></div></li>
+                <li id="about" class="pointer"><a href="../about.html">About</a><div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+        <div class="subnav">
+            <a href="../home.html"><div class="logo bg pointer"></div></a>
+            <ul class="nav" id="mainPageNav">
+                <li id="project_description" class="pointer">Project Description<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="challenge" class="pointer">Challenge<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="solution" class="pointer">Solution<div class="navBar"><div class="barColor"></div></div></li>
+                <li id="outcome" class="pointer">Design Outcome<div class="navBar"><div class="barColor"></div></div></li>
+            </ul>
+        </div>
+
+        <div class="project" style="background-color: #EC5F51;">
+            <div class="projectText">
+                <p class="role">BRANDING | UX & UI | ILLUSTRATION</p>
+                <h1>WHIM - YouTube</h1>
+                <p>IoT service that allows to steam YouTube content to wall-mounted hardware.</p>
+            </div>
+            <div class="bg" style="background-image:url('../img/youtube.svg')"></div>
+        </div>
+
+        <div class="content">
+            <div class="section project_description_section">
+                <h1>Project Description</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <p><a href="http://onawhim.com/"><span class="initial">W</span>him</a> builds “canvas” - thin, light-weight screens of various sizes that can be mounted on the wall easily. WHIM provides IoT service that allows user to stream content on their phones to canvases with the WHIM app.</p>
+                        <p>The WHIM app is made of a group of “mini apps” - each performs a specific function. The YouTube mini app uses the YouTube API to load user data to the WHIM app, thus users can watch YouTube content on canvas.</p>
+                        <p>I started this project from scratch. I developed the branding system, mapped the user flow and crafted the UI.</p>
+                    </div>
+                    <div class="columnright column">
+                        <img src="../img/whimyoutube/1.png" style="height:30rem; position: absolute; margin-top: -13rem;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section challenge_section">
+                <h1>Challenge</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <h3>1. Experience Transfer</h3>
+                        <p><span class="initial">M</span>ost of YouTube users are already familiar with navigating the YouTube app, which means that reinventing the wheel here is pointless, even harmful because it adds learning curve for users to transfer their experience. Ideally, users who are familiar with the YouTube app should be able to transfer their experience to this mini app seamlessly.</p>
+                    </div>
+                    <div class="columnright column">
+                        <h3>2. Affordance for “Showable” Content</h3>
+                        <p><span class="initial">I</span>n the YouTube mini app, the user should be able to stream videos on the canvas, view the comments and reply to them on the canvas. How do we indicate that the content is “showable” on canvas using visual affordance?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section solution_section">
+                <h1>Solution</h1>
+                <div class="block">
+                    <div class="columnleft column">
+                        <h3>1. Create Familarity</h3>
+                        <p><span class="initial">I</span>n crafting the UI details, I mixed the UI design of the YouTube app with WHIM’s visual elements for users to transfer their experience smoothly. The icons in the mini apps remsemble the YouTube ones, and the basic user flow remains the same. If the user knows which icon does what in the YouTube app, she should be able to do the same thing in the mini app.</p><br>
+                    </div>
+                    <div class="columnright column">
+                        <h3>2. Project the Canvas to UI</h3>
+                        <p><span class="initial">P</span>rojecting the real environment to the digital interface helps users make near transfer of experience.</p>
+                        <p>I projected the appearance of the actual canvas to the design of the “canvas icon”, which will trigger the canvas screen where user can manipulate what to show on the canvas. The canvas icon here works as an affordance for user to connect it with the actual canvas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section outcome_section" style="min-height: 36rem;">
+                <h1>Design Outcome</h1>
+                <div class="block">
+                    <div class="center">
+                        <p><span class="initial">T</span>he new design was successfully applied to the existing product and the product looks much better.</p>
+                        <p>Currently Swiftdine is working with local partners in LA, and is expanding its business in both east coast and west coast.</p>
+                    </div>
+                </div>
+                <img src="../img/whimyoutube/2.png" style="width:80vw;">
+            </div>
+        <hr>
+
+        <div id="more">
+            <a href="swiftdine.html">
+                <div class="prev pointer">
+                    <p class="pointer"><i class="fas fa-chevron-left"></i> Previous Project</p>
+                    <h3 class="pointer">Swiftdine</h3>
+                </div>
+            </a>
+            <a href="whimtoday.html">
+                <div class="next pointer">
+                    <p class="pointer">Next Project <i class="fas fa-chevron-right"></i></p>
+                    <h3 class="pointer">WHIMToday</h3>
+                </div>
+            </a>
+        </div>
+        </div>
+    <script src="../js/project.js"></script>
+    </body>
+</html>
